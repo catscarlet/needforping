@@ -7,6 +7,8 @@
 项目是靠html+js+bash(unix shell)编写和运行的，
 
 底层依靠shell脚本做数据的采集，界面使用一个简单的html，和highcharts JS图表库进行展示。
+![needforping logo]( https://github.com/catscarlet/needforping/blob/master/snapshot.png )
+
 
 ## 安装
 - 部分shell脚本需要修改其安装目录：
@@ -45,5 +47,7 @@ getLOSS.js和getLATENCY.js是我自己写的，用于获取和展示图表。JS�
 
 2. 脚本output100json.sh在首次运行的时候会有找不到文件的问题，没有做文件存在检查。
 
+3. js在请求JSON的时候，因为数组内容是从函数名中读取的，函数每次取数组都读一次文件，导致同一文件被读取很多次，增加服务器开销，降低读取速率。
+
 ## TODO
-未来版本将会制作成html+php+mysql+js+bash多语言的，将采集的数据保存在mysql中，并使用php进行调用和回滚。 本项目主要是用于学习目的，实际使用请自行修改。
+未来版本将会制作成html+php+mysql+js+bash多语言的，将采集的数据保存在mysql中，并使用php进行调用和回滚。新版本会修复上述已知缺陷。本项目主要是用于学习目的，实际使用请自行修改。
