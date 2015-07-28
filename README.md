@@ -29,7 +29,7 @@
 
 ## 代码组成
 ### Bash部分
-needforping3.sh每2分钟向目的机ping 100个包，并收集延迟和丢包率。
+needforping.sh每2分钟向目的机ping 100个包，并收集延迟和丢包率。
 
 output100json.sh每2分钟将收集到的数据转换为json文件。
 
