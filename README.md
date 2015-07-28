@@ -8,6 +8,8 @@
 
 底层依靠shell脚本做数据的采集，界面使用一个简单的html，和highcharts JS图表库进行展示。
 
+**项目更新版：[https://github.com/catscarlet/needforping2](https://github.com/catscarlet/needforping2)**
+
 ### 软件截图
 ![needforping logo](https://github.com/catscarlet/needforping/blob/master/snapshot.png)
 
@@ -39,7 +41,7 @@ getLOSS.js和getLATENCY.js是我自己写的，用于获取和展示图表。JS�
 ## 项目展示
 展示地址：[http://pi.catscarlet.com:8091/needforping/](http://pi.catscarlet.com:8091/needforping/)
 
-这个地址是一个插在北京联通宽带上的树莓派，偶尔会关机，所以打不开很正常233。
+这个地址是一个插在北京联通宽带上的树莓派，偶尔会关机，所以打不开很正常。
 
 ## 已知缺陷
 - 目前所有记录都是存在于$needforping_DIR/shell/pingresult目录下的，很多很臃肿，而且没有回滚功能，终究将会越跑越慢，甚至撑死硬盘。想要改良的话就需要linux的logrotate或crontab做支持，懒。有需要的朋友就自己修复吧。
@@ -48,3 +50,4 @@ getLOSS.js和getLATENCY.js是我自己写的，用于获取和展示图表。JS�
 
 ## TODO
 未来版本将会制作成html+php+mysql+js+bash多语言的，将采集的数据保存在mysql中，并使用php进行调用和回滚。新版本会修复上述已知缺陷。本项目主要是用于学习目的，实际使用请自行修改。
+**项目更新版：[https://github.com/catscarlet/needforping2](https://github.com/catscarlet/needforping2)**
