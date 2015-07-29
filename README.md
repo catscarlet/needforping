@@ -1,4 +1,4 @@
-# # Need For Ping
+# Need For Ping
 ## 简介
 这是我上传到Github的第一个项目，也是我第一个自己亲自手写的Web项目。
 
@@ -49,5 +49,4 @@ getLOSS.js和getLATENCY.js是我自己写的，用于获取和展示图表。JS�
 - js在请求JSON的时候，因为数组内容是从函数名中读取的，函数每次取数组都读一次文件，导致同一文件被读取很多次，增加服务器开销，降低读取速率。
 
 ## TODO
-未来版本将会制作成html+php+mysql+js+bash多语言的，将采集的数据保存在mysql中，并使用php进行调用和回滚。新版本会修复上述已知缺陷。本项目主要是用于学习目的，实际使用请自行修改。
-**项目更新版：Need For Ping 2[https://github.com/catscarlet/needforping2](https://github.com/catscarlet/needforping2)**
+未来版本将会制作成html+php+mysql+js+bash多语言的，将采集的数据保存在mysql中，并使用php进行调用和回滚。新版本会修复上述已知缺陷。本项目主要是用于学习目的，实际使用请自行修改。 **项目更新版：Need For Ping 2[https://github.com/catscarlet/needforping2](https://github.com/catscarlet/needforping2)**
