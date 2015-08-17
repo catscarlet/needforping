@@ -8,7 +8,8 @@
 
 底层依靠shell脚本做数据的采集，界面使用一个简单的html，和highcharts JS图表库进行展示。
 
-**项目更新版：Need For Ping 2[https://github.com/catscarlet/needforping2](https://github.com/catscarlet/needforping2)**
+**该项目已废弃，所有工作已转移到
+[Need For Ping](https://github.com/catscarlet/needforpingthinksmarty)，请前往新项目。**
 
 ### 软件截图
 ![needforping logo](https://github.com/catscarlet/needforping/blob/master/snapshot.png)
