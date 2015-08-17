@@ -1,4 +1,8 @@
 # Need For Ping
+
+**该项目已废弃，所有工作已转移到
+[Need For Ping](https://github.com/catscarlet/needforpingthinksmarty)，请前往新项目。**
+
 ## 简介
 这是我上传到Github的第一个项目，也是我第一个自己亲自手写的Web项目。
 
@@ -7,9 +11,6 @@
 项目是靠html+js+bash(unix shell)编写和运行的，
 
 底层依靠shell脚本做数据的采集，界面使用一个简单的html，和highcharts JS图表库进行展示。
-
-**该项目已废弃，所有工作已转移到
-[Need For Ping](https://github.com/catscarlet/needforpingthinksmarty)，请前往新项目。**
 
 ### 软件截图
 ![needforping logo](https://github.com/catscarlet/needforping/blob/master/snapshot.png)
