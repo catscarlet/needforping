@@ -41,9 +41,7 @@ output100json.sh每2分钟将收集到的数据转换为json文件。
 getLOSS.js和getLATENCY.js是我自己写的，用于获取和展示图表。JS图表库使用的是highcharts [http://www.highcharts.com/。](http://www.highcharts.com/。)
 
 ## 项目展示
-展示地址：[http://pi.catscarlet.com:8091/needforping/](http://pi.catscarlet.com:8091/needforping/)
-
-这个地址是一个插在北京联通宽带上的树莓派，偶尔会关机，所以打不开很正常。
+无
 
 ## 已知缺陷
 - 目前所有记录都是存在于$needforping_DIR/shell/pingresult目录下的，很多很臃肿，而且没有回滚功能，终究将会越跑越慢，甚至撑死硬盘。想要改良的话就需要linux的logrotate或crontab做支持，懒。有需要的朋友就自己修复吧。
