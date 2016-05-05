@@ -41,7 +41,7 @@ output100json.sh每2分钟将收集到的数据转换为json文件。
 getLOSS.js和getLATENCY.js是我自己写的，用于获取和展示图表。JS图表库使用的是highcharts [http://www.highcharts.com/。](http://www.highcharts.com/。)
 
 ## 项目展示
-展示地址：[http://pi.catscarlet.com:8091/needforping/](http://pi.catscarlet.com:8091/needforping/)
+无
 
 这个地址是一个插在北京联通宽带上的树莓派，偶尔会关机，所以打不开很正常。
 
